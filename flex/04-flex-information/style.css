@@ -12,6 +12,30 @@ img {
   font-weight: 900;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.food-container {
+  display: flex;
+  column-gap: 75px;
+  padding: 10px 52px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: 200px;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
